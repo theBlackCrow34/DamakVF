@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">دمك حياة</string>
+    <string-array name="blood_type">
+        <item>All</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="city">
+        <item>All</item>
+        <item>Aswan</item>
+        <item>Luxor</item>
+        <item>Qena</item>
+        <item>Sohag</item>
+        <item>Asiute</item>
+        <item>Menea</item>
+        <item>Cairo</item>
+        <item>Geza</item>
+    </string-array>
+    <string-array name="custom_blood_type">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="custom_city">
+        <item>Aswan</item>
+        <item>Luxor</item>
+        <item>Qena</item>
+        <item>Sohag</item>
+        <item>Asiute</item>
+        <item>Menea</item>
+        <item>Cairo</item>
+        <item>Geza</item>
+    </string-array>
+
+</resources>

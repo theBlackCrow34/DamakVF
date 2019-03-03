@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_base"
+    android:orientation="vertical"
+    tools:context=".AddRequest">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/edit_background"
+        android:inputType="text"
+        android:paddingLeft="4dp"
+        android:id="@+id/name_add"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/name_edite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/edit_background"
+        android:inputType="number"
+        android:textColor="#000"
+        android:paddingLeft="4dp"
+        android:id="@+id/phone_add"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_action_phone"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/blood_type_add"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_background"
+        >
+        <!--android:animateLayoutChanges="true"-->
+
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/city_add"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_background">
+        <!--android:animateLayoutChanges="true"-->
+
+    </Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Scan Qr Code"
+        android:id="@+id/qr_code"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/button_background" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add Request"
+        android:id="@+id/add_add"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        />
+
+</LinearLayout>
